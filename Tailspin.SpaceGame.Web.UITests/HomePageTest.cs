@@ -1,4 +1,4 @@
-using Microsoft.Edge.SeleniumTools;
+pwdusing Microsoft.Edge.SeleniumTools;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -9,8 +9,8 @@ using System.Collections;
 
 namespace UITests
 {
-    [TestFixture("Chrome")]
-    [TestFixture("Firefox")]
+    //[TestFixture("Chrome")]
+    //[TestFixture("Firefox")]
     [TestFixture("Edge")]
     public class HomePageTest
     {
